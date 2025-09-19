@@ -1,6 +1,6 @@
 # **ros2_controller功能包**
 
- ![image-20250919141909615](/home/lanxin/ros2_ws/ARM/USM设备内版本/ws_vb2_jaka_k1/assets/image-20250919141909615.png)
+ ![image-20250919141909615](./assets/image-20250919141909615.png) 
 
  **/vb2_robot_controller/launch/vb2_robot_controllers.launch.py**
 
@@ -10,7 +10,7 @@ vb2_robot_controllers.launch.py为启动程序，加载urdf模型，并启动控
 
 ros2 launch vb2_robot_controller vb2_robot_controllers.launch.py 
 
-![image-20250919141120621](/home/lanxin/ros2_ws/ARM/USM设备内版本/ws_vb2_jaka_k1/assets/image-20250919141120621.png) 
+![image-20250919141120621](./assets/image-20250919141120621.png) 
 
 
 
@@ -28,7 +28,7 @@ vb2_robot_rviz.launch.py为rviz启动程序
 
 ros2 launch vb2_robot_controller vb2_robot_rviz.launch.py 
 
-![image-20250919141246483](/home/lanxin/ros2_ws/ARM/USM设备内版本/ws_vb2_jaka_k1/assets/image-20250919141246483.png) 
+![image-20250919141246483](./assets/image-20250919141246483.png) 
 
 **urdf模型文件**
 
@@ -51,7 +51,7 @@ ros2 launch vb2_robot_controller vb2_robot_rviz.launch.py
 
 python3 head_nod_pub.py --ros-args -p target_position:="[3.1415926]" -p threshold:=0.1
 
-**注：**由于此程序需要加载自定义的msg包lx_motor_interfaces，因此当运行时提示无法找到lx_motor_interfaces时，需执行 source install/setup.bash
+**注：** 由于此程序需要加载自定义的msg包lx_motor_interfaces，因此当运行时提示无法找到lx_motor_interfaces时，需执行 source install/setup.bash
 
 
 

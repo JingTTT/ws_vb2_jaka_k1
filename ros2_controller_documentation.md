@@ -1,6 +1,6 @@
 # VB2 ros2_controller Package
 
-![image-20250919141909615](/home/lanxin/ros2_ws/ARM/USM设备内版本/ws_vb2_jaka_k1/assets/image-20250919141909615.png) 
+![image-20250919141909615](./assets/image-20250919141909615.png)  
 
 **File:**  **/vb2_robot_controller/launch/vb2_robot_controllers.launch.py**
 This is the launch program, which loads the URDF model and starts the controller.
@@ -9,7 +9,7 @@ Launch command:
 
 ros2 launch vb2_robot_controller vb2_robot_controllers.launch.py
 
-![image-20250919141120621](/home/lanxin/ros2_ws/ARM/USM设备内版本/ws_vb2_jaka_k1/assets/image-20250919141120621.png) 
+![image-20250919141120621](./assets/image-20250919141120621.png)  
 
 
 
@@ -27,7 +27,7 @@ This is the RViz launch program.
 
 ros2 launch vb2_robot_controller vb2_robot_rviz.launch.py
 
-![image-20250919141246483](/home/lanxin/ros2_ws/ARM/USM设备内版本/ws_vb2_jaka_k1/assets/image-20250919141246483.png) 
+![image-20250919141246483](./assets/image-20250919141246483.png)  
 
 
 
